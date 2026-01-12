@@ -9,11 +9,11 @@ docs/
 │   └── apps/
 │       └── frontend/
 │           ├── index.html
-│           ├── main.js
-│           ├── services/      # walletServices.js, api, dll
+│           ├── script.js
+│           ├── style.css
+│           ├── services/      # walletServices.js
 │           ├── handlers/      # accountsChanged.js, chainChanged.js
-│           ├── utils/         # format.js, message.js, errorStatus.js
-│           └── assets/        # css, images, icons
+│           ├── utils/         # format.js
 │
 ├── day-2/                     # (opsional) materi hari ke-2
 ├── day-3/                     # (opsional) materi hari ke-3
