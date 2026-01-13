@@ -109,3 +109,46 @@ Catat:
 > 📌 Sekarang smart contract **hidup di blockchain**.
 
 ---
+
+#### Testing via Terminal
+
+```bash
+npx hardhat console --network avalancheFuji
+```
+
+```text
+Akan muncul:
+Welcome to Node.js v24.12.0.
+Type ".help" for more information.
+>
+```
+
+```bash
+const [walletClient] = await hre.viem.getWalletClients()
+```
+
+lalu enter
+
+```bash
+walletClient.account.address
+```
+
+lalu enter (maka akan muncul address Anda)
+
+ubah 0xbxxxxxxxxxxxxxxxxxxx menjadi address Anda
+```bash
+const contract = await hre.viem.getContractAt(  "SimpleStorage",  "0xbxxxxxxxxxxxxxxxxxxx")
+```
+#### getValue
+```bash
+await contract.write.getValue()
+```
+#### setValue
+```bash
+await contract.write.setValue([123])
+```
+#### get contract owner
+```bash
+await contract.read.owner()
+```
+
