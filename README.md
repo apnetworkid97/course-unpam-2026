@@ -1,11 +1,12 @@
 # 🚀 Avalanche Full Stack dApp – Short Course at Pamulang University
 
-## 📁 Repository Structure
+    Project ini dibuat untuk memenuhi tugas Short Course Online sebagai salah satu syarat dalam lulus Short Course.
+
+## 📁 All Repository Structure
 
 ```bash
-avalanche-fullstack-dapp/
 docs/
-├── day-1/
+├── day-1/                     # materi hari ke-1
 │   └── apps/
 │       └── frontend/
 │           ├── index.html
@@ -14,11 +15,20 @@ docs/
 │           ├── services/      # walletServices.js
 │           ├── handlers/      # accountsChanged.js, chainChanged.js
 │           ├── utils/         # format.js
+│           ├── README.md      # penjelasan modul day-1
 │
-├── day-2/                     # (opsional) materi hari ke-2
-├── day-3/                     # (opsional) materi hari ke-3
-├── day-4/                     # (opsional)
-└── README.md                  # (opsional) penjelasan modul
+├── day-2/                     # materi hari ke-2
+│   └── dapps/
+│       └── contracts/
+│           ├── contracts/     # simple-storage.sol
+│           ├── scripts/       # deployments.ts
+│           ├── test/
+│           ├── hardhat.config.ts
+│           ├── README.md      # penjelasan modul day-2
+│
+├── day-3/                     # Soon
+├── day-4/                     # Soon
+└── README.md                  # penjelasan modul
 ```
 
 ---

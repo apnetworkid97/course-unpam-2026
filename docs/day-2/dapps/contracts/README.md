@@ -1,23 +1,26 @@
-## 1.1 Setup Project
+## 📁 Repository Structure
+
+```bash
+day-2/                         # materi hari ke-2
+│   └── dapps/
+│       └── contracts/
+│           ├── contracts/     # simple-storage.sol
+│           ├── scripts/       # deployments.ts
+│           ├── test/
+│           ├── hardhat.config.ts
+│           ├── README.md      # penjelasan modul day-2
+```
+---
+### 1.1 Setup Project
 
 ```bash
 cd apps/contracts
 npm install
 ```
 
-Struktur:
-
-```text
-dapps/contracts/
-├── contracts/
-├── scripts/
-├── test/
-├── hardhat.config.ts
-```
-
 ---
 
-## 1.2 Smart Contract Pertama
+### 1.2 Smart Contract Pertama
 
 **`contracts/SimpleStorage.sol`**
 
@@ -48,7 +51,7 @@ contract SimpleStorage {
 
 ---
 
-## 1.3 Compile Contract
+### 1.3 Compile Contract
 
 ```bash
 npx hardhat compile
@@ -63,7 +66,7 @@ Output:
 
 ---
 
-## 1.4 Konfigurasi Avalanche Fuji
+### 1.4 Konfigurasi Avalanche Fuji
 
 ```ts
 avalancheFuji: {
@@ -76,7 +79,7 @@ avalancheFuji: {
 
 ---
 
-## 1.5 Deploy Contract
+### 1.5 Deploy Contract
 
 ```bash
 npx hardhat run scripts/deployments.ts --network avalancheFuji
@@ -89,7 +92,7 @@ Catat:
 
 ---
 
-## 1.6 Verifikasi di Explorer
+### 1.6 Verifikasi di Explorer
 
 - Buka Snowtrace / Avalanche Explorer
 - Cari contract address
