@@ -18,7 +18,7 @@ day-2/                         # materi hari ke-2
 ### 1.1 Setup Project
 
 ```bash
-cd apps/contracts
+cd dapps/contracts
 npm install
 ```
 
