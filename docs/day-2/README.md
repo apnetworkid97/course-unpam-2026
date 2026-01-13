@@ -333,7 +333,7 @@ Pastikan:
 ## 3.3 Task 3 – Deploy Ulang
 
 - Compile ulang
-- Deploy ulang ke Fuji
+- Deploy ulang ke Fuji 
 - Simpan:
 
   - Contract address

@@ -301,12 +301,12 @@ Tampilkan di UI:
 
 ## 🧪 Checklist Praktik
 
-- [ ] Memiliki akun di builder hub Avalanche https://build.avax.network/login
-- [ ] Core wallet terinstall
-- [ ] Avalanche Fuji Testnet aktif
-- [ ] Frontend berjalan
-- [ ] Wallet bisa connect
-- [ ] Network terdeteksi dengan benar
+- [✅] Memiliki akun di builder hub Avalanche https://build.avax.network/login
+- [✅] Core wallet terinstall
+- [✅] Avalanche Fuji Testnet aktif
+- [✅] Frontend berjalan
+- [✅] Wallet bisa connect
+- [✅] Network terdeteksi dengan benar
 
 [Submission Link](https://forms.gle/bs6UtUejoe3Yupv9A) aktif selama 48 jam
 
