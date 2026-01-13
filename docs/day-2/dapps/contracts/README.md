@@ -1,4 +1,4 @@
-## 2.1 Setup Project
+## 1.1 Setup Project
 
 ```bash
 cd apps/contracts
@@ -17,7 +17,7 @@ dapps/contracts/
 
 ---
 
-## 2.2 Smart Contract Pertama
+## 1.2 Smart Contract Pertama
 
 **`contracts/SimpleStorage.sol`**
 
@@ -48,7 +48,7 @@ contract SimpleStorage {
 
 ---
 
-## 2.3 Compile Contract
+## 1.3 Compile Contract
 
 ```bash
 npx hardhat compile
@@ -63,7 +63,7 @@ Output:
 
 ---
 
-## 2.4 Konfigurasi Avalanche Fuji
+## 1.4 Konfigurasi Avalanche Fuji
 
 ```ts
 avalancheFuji: {
@@ -76,7 +76,7 @@ avalancheFuji: {
 
 ---
 
-## 2.5 Deploy Contract
+## 1.5 Deploy Contract
 
 ```bash
 npx hardhat run scripts/deployments.ts --network avalancheFuji
@@ -89,7 +89,7 @@ Catat:
 
 ---
 
-## 2.6 Verifikasi di Explorer
+## 1.6 Verifikasi di Explorer
 
 - Buka Snowtrace / Avalanche Explorer
 - Cari contract address
