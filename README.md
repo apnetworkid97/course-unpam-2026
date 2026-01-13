@@ -39,7 +39,6 @@ docs/
 
 ```bash
 git clone https://github.com/apnetworkid97/course-unpam-2026.git
-cd avalanche-fullstack-dapp
 ```
 
 ---
