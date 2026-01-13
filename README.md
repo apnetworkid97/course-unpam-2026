@@ -1,6 +1,8 @@
 # 🚀 Avalanche Full Stack dApp – Short Course at Pamulang University
 
+```text
     Project ini dibuat untuk memenuhi tugas Short Course Online sebagai salah satu syarat dalam lulus Short Course.
+```
 
 ## 📁 All Repository Structure
 
