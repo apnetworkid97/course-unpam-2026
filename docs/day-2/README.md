@@ -1,3 +1,5 @@
+# 📘 Day 2 – Smart Contract
+
 ## 📁 Repository Structure
 
 ```bash

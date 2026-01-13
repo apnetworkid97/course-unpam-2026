@@ -1,4 +1,7 @@
+# 📘 Day 1 – Blockchain & Avalanche
+
 ## 📁 Repository Structure
+
 ```bash
 day-1/                         # materi hari ke-1
 │   └── apps/
@@ -11,6 +14,7 @@ day-1/                         # materi hari ke-1
 │           ├── utils/         # format.js
 │           ├── README.md      # penjelasan modul day-1
 ```
+
 ### 1.1 Install Core Wallet
 
 1. Buka [https://core.app/](https://core.app/)
