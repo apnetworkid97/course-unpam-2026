@@ -162,3 +162,15 @@ await contract.write.setValue([123])
 ```bash
 await contract.read.owner()
 ```
+
+---
+
+## 🧪 Checklist
+
+- [✅] Contract berhasil compile
+- [✅] Contract berhasil deploy
+- [✅] Address tersimpan di blockchain Avalanche Fuji Testnet
+- [✅] ABI tersedia
+- [✅] Event terlihat di explorer
+
+---

@@ -94,3 +94,14 @@ Yang didemokan:
 - Wallet belum terinstall
 
 ---
+
+## 🧪 Checklist Praktik
+
+- [✅] Memiliki akun di builder hub Avalanche https://build.avax.network/login
+- [✅] Core wallet terinstall
+- [✅] Avalanche Fuji Testnet aktif
+- [✅] Frontend berjalan
+- [✅] Wallet bisa connect
+- [✅] Network terdeteksi dengan benar
+
+---

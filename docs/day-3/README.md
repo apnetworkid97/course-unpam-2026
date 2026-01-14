@@ -221,3 +221,14 @@ Ditampilkan:
 - Error message jika gagal
 
 ---
+
+## 🧪 Checklist
+
+- [✅] Next.js app berjalan
+- [✅] Wallet bisa connect
+- [✅] Network Fuji terdeteksi
+- [✅] Read contract berhasil
+- [✅] Write contract berhasil
+- [✅] Tx muncul di explorer
+
+---
