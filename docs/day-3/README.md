@@ -21,7 +21,7 @@ day-3/                         # materi hari ke-3
 ## 1.1 Setup Frontend Project
 
 ```bash
-cd apps/frontend
+cd dapps/frontend
 npm install
 npx create-next-app@latest
 npm run dev
