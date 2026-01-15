@@ -40,6 +40,7 @@ docs/
 │           ├── next.config.ts
 │           ├── README.md           # penjelasan modul day-3
 ├── day-4/                          # Soon
+├── day-5/                          # Soon
 └── README.md                       # penjelasan modul
 ```
 
