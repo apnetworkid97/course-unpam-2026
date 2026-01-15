@@ -14,6 +14,11 @@ day-2/                         # materi hari ke-2
 ```
 
 ---
+## ENV EXAMPLE
+```text
+PRIVATE_KEY="0xxxxxxxxxxxxxxxxxxxxx"
+```
+---
 
 ### 1.1 Setup Project
 
