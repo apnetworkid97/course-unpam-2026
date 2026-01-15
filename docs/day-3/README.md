@@ -16,6 +16,12 @@ day-3/                         # materi hari ke-3
 │           ├── README.md       # penjelasan modul day-3
 ```
 
+## ENV EXAMPLE
+
+```text
+SIMPLE_STORAGE_ADDRESS="0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
 ---
 
 ## 1.1 Setup Frontend Project
