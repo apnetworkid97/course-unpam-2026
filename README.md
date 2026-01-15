@@ -28,7 +28,17 @@ docs/
 │           ├── hardhat.config.ts
 │           ├── README.md      # penjelasan modul day-2
 │
-├── day-3/                     # Soon
+├── day-3/                         # materi hari ke-3
+│   └── dapps/
+│       └── frontend/
+│           └── my-app/
+│           ├── app/            # layout.tsx, page.tsx, providers.tsx
+│           ├── public/
+│           ├── src/
+│               └── contracts/  # address.ts
+│                   └── abi/    # simpleStorage.ts
+│           ├── next.config.ts
+│           ├── README.md       # penjelasan modul day-3
 ├── day-4/                     # Soon
 └── README.md                  # penjelasan modul
 ```
