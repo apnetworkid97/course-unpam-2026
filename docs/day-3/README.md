@@ -19,7 +19,7 @@ day-3/                         # materi hari ke-3
 ## ENV EXAMPLE
 
 ```text
-SIMPLE_STORAGE_ADDRESS="0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+NEXT_PUBLIC_CONTRACT_ADDRESS="0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 ---
