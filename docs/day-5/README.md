@@ -3,33 +3,29 @@
 ## 📁 Repository Structure
 
 ```bash
-day-5/                                # materi hari ke-5
+day-5/                            # materi hari ke-5
 ├── backend/
-│   ├── helpers/                      # deployments.ts
-│       └── src/
-│           └── blockchain/           # main.ts
-│               ├── clients/          # viem.client.ts
-│               ├── constants/        # blockchain.constants.ts
-│               ├── controller/       # blockchain.controller.spec.ts, blockchain.controller.ts
-│               ├── dto/              # get-events.dto.ts
-│               ├── errors/           # rpc-error.handler.ts
-│               ├── modules/          # blockchain.module.ts
-│               ├── services/         # blockchain.service.spec.ts, blockchain.service
-│               └── simple-storage/   # simple-storage.abi.ts
+│   └── src/                      # main.ts
+│       └── blockchain/           # blockchain.controller.ts, blockchain.service.ts
+│           ├── clients/          # viem.client.ts
+│           ├── constants/        # blockchain.constants.ts
+│           ├── dto/              # get-events.dto.ts
+│           ├── errors/           # rpc-error.handler.ts
+│           └── simple-storage/   # simple-storage.abi.ts
 │   └── .env
 │
 ├── frontend/
 │   ├── my-app/
-│       ├── app/                      # globals.css, layout.tsx, page.tsx, providers.tsx
+│       ├── app/                  # globals.css, layout.tsx, page.tsx, providers.tsx
 │       ├── node_modules/
 │       └── src/
-│           ├── components/           # AlertMessage.tsx, LayoutContainer.tsx, PageHeader.tsx, ReadValueCard.tsx, WalletStatus.tsx, WriteValueForm.tsx
-│           ├── contracts/            # address.ts
-│               └── abi/              # simpleStorage.ts
-│           ├── hooks/                # useAutoClearMessage.ts, useBackendValue.ts, userMounted.ts, useTransaction.ts
+│           ├── components/       # AlertMessage.tsx, LayoutContainer.tsx, PageHeader.tsx, ReadValueCard.tsx, WalletStatus.tsx, WriteValueForm.tsx
+│           ├── contracts/        # address.ts
+│               └── abi/          # simpleStorage.ts
+│           ├── hooks/            # useAutoClearMessage.ts, useBackendValue.ts, userMounted.ts, useTransaction.ts
 │   └── .env
 │
-├── README.md                         # penjelasan modul day-5
+├── README.md                     # penjelasan modul day-5
 ```
 
 ---
