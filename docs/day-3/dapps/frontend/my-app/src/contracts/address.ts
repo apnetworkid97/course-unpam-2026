@@ -1,3 +1,1 @@
-import dotenv from 'dotenv';
-dotenv.config();
-export const SIMPLE_STORAGE_ADDRESS = process.env.SIMPLE_STORAGE_ADDRESS || "";
+export const USER_CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS as `0x${string}` || "";

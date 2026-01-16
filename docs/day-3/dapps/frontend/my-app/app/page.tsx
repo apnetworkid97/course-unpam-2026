@@ -1,7 +1,7 @@
 'use client';
 
 import { SIMPLE_STORAGE_ABI } from '@/src/contracts/abi/simpleStorage';
-import { SIMPLE_STORAGE_ADDRESS } from '@/src/contracts/address';
+import { USER_CONTRACT_ADDRESS } from '@/src/contracts/address';
 import { useState,useEffect } from 'react';
 import {
   useAccount,
@@ -13,7 +13,7 @@ import {
 import { injected } from 'wagmi/connectors';
 import { avalancheFuji } from 'wagmi/chains';
 
-const CONTRACT_ADDRESS = SIMPLE_STORAGE_ADDRESS;
+const CONTRACT_ADDRESS = USER_CONTRACT_ADDRESS;
 const SS_ABI = SIMPLE_STORAGE_ABI;
 
 export default function Page() {
