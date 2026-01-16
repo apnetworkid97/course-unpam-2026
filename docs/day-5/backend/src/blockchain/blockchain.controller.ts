@@ -1,6 +1,5 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import { Controller, Get, Query } from '@nestjs/common';
 import { BlockchainService } from './blockchain.service';
-import { GetEventsDTO } from './dto/get-events.dto';
 
 @Controller('blockchain')
 export class BlockchainController {
@@ -8,19 +7,19 @@ export class BlockchainController {
     private readonly blockchainService: BlockchainService,
   ) {}
 
-  // GET /blockchain/value
   @Get('value')
   async getValue() {
     return this.blockchainService.getLatestValue();
   }
 
-  // POST /blockchain/events
-  @Post('events')
-async getEvents(@Body() body: GetEventsDTO) {
-  return this.blockchainService.getValueUpdatedEvents(
-    BigInt(body.fromBlock),
-    BigInt(body.toBlock),
-  );
-}
-
+  @Get('events')
+  async getEvents(
+    @Query('fromBlock') fromBlock: string,
+    @Query('toBlock') toBlock: string,
+  ) {
+    return this.blockchainService.getValueUpdatedEvents(
+      BigInt(fromBlock),
+      BigInt(toBlock),
+    );
+  }
 }

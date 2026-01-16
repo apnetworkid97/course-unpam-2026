@@ -7,8 +7,12 @@ import { handleRpcError } from "./errors/rpc-error.handler";
 import {parseAbiItem } from "viem";
 @Injectable()
 export class BlockchainService {
+    
   private readonly contractAddress: `0x${string}` = USER_CONTRACT_ADDRESS as `0x${string}`;
    async getLatestValue() {
+    if (!this.contractAddress) {
+        throw new Error('CONTRACT_ADDRESS is not configured');
+      }
     try {
       const value = (await viemPublicClient.readContract({
         address: this.contractAddress,
@@ -26,6 +30,9 @@ export class BlockchainService {
 
   // 🔹 Read ValueUpdated events
   async getValueUpdatedEvents(fromBlock: bigint, toBlock: bigint) {
+      if (!this.contractAddress) {
+        throw new Error('CONTRACT_ADDRESS is not configured');
+      }
      if (toBlock < fromBlock) {
       throw new BadRequestException(
         'fromBlock harus kurang dari toBlock',
