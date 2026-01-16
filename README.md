@@ -5,8 +5,6 @@ Saya ucapkan terima kasih kepada Allah Swt dan juga kepada:
 - Bpk Septian Maulana - [https://www.linkedin.com/in/septian-maulana/](https://www.linkedin.com/in/septian-maulana/)
 - Kak Adel Aulia - [https://www.linkedin.com/in/adelauliaw/](https://www.linkedin.com/in/adelauliaw/)
 
-selaku mentor saya dalam membangun aplikasi ini.
-
 Project ini dibuat untuk memenuhi tugas Short Course Online sebagai salah satu syarat dalam lulus Short Course yang diadakan oleh UNIVERSITAS PAMULANG.
 
 ## 📁 All Repository Structure
