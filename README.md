@@ -1,15 +1,10 @@
 # 🚀 Avalanche Full Stack dApp – Short Course at Pamulang University
 
 Saya ucapkan terima kasih kepada Allah Swt dan juga kepada:
-<<<<<<< HEAD
-- Bpk Septian Maulana - [https://www.linkedin.com/in/septian-maulana/](https://www.linkedin.com/in/septian-maulana/)
-- Kak Adel Aulia - [https://www.linkedin.com/in/adelauliaw/](https://www.linkedin.com/in/adelauliaw/)
-=======
 
 - Bpk Septian Maulana - [https://www.linkedin.com/in/septian-maulana/](https://www.linkedin.com/in/septian-maulana/)
 - Kak Adel Aulia - [https://www.linkedin.com/in/adelauliaw/](https://www.linkedin.com/in/adelauliaw/)
 
->>>>>>> 73918e1 (update day-5)
 selaku mentor saya dalam membangun aplikasi ini.
 
 Project ini dibuat untuk memenuhi tugas Short Course Online sebagai salah satu syarat dalam lulus Short Course yang diadakan oleh UNIVERSITAS PAMULANG.
@@ -65,21 +60,6 @@ docs/
 │           ├── README.md                # penjelasan modul day-4
 │
 ├── day-5/                               # materi hari ke-5
-<<<<<<< HEAD
-│   ├── backend/
-│       ├── helpers/                     # deployments.ts
-│       ├── src/
-│           └── blockchain/              # main.ts
-│               ├── clients/             # viem.client.ts
-│               ├── constants/           # blockchain.constants.ts
-│               ├── controller/          # blockchain.controller.spec.ts, blockchain.controller.ts
-│               ├── dto/                 # get-events.dto.ts
-│               ├── errors/              # rpc-error.handler.ts
-│               ├── modules/             # blockchain.module.ts
-│               ├── services/            # blockchain.service.spec.ts, blockchain.service
-│               └── simple-storage/      # simple-storage.abi.ts
-│       └── .env
-=======
 │   └── backend/
 │       └── src/                         # main.ts
 │           └── blockchain/              # blockchain.controller.ts, blockchain.service.ts
@@ -90,7 +70,6 @@ docs/
 │               └── simple-storage/      # simple-storage.abi.ts
 │       └── .env
 │
->>>>>>> 73918e1 (update day-5)
 │   ├── frontend/
 │       ├── my-app/
 │           ├── app/                     # globals.css, layout.tsx, page.tsx, providers.tsx
