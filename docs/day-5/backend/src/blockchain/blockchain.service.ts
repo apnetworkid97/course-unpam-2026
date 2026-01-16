@@ -1,9 +1,9 @@
 import { BadRequestException, Injectable} from "@nestjs/common";
-import { viemPublicClient } from "../clients/viem.client";
-import { SIMPLE_STORAGE_ABI } from "../simple-storage/simple-storage.abi";
+import { viemPublicClient } from "./clients/viem.client";
+import { SIMPLE_STORAGE_ABI } from "./simple-storage/simple-storage.abi";
 import { USER_CONTRACT_ADDRESS } from "src/blockchain/helpers/deployments";
-import { MAX_BLOCK_RANGE } from '../constants/blockchain.constants';
-import { handleRpcError } from "../errors/rpc-error.handler";
+import { MAX_BLOCK_RANGE } from './constants/blockchain.constants';
+import { handleRpcError } from "./errors/rpc-error.handler";
 import {parseAbiItem } from "viem";
 @Injectable()
 export class BlockchainService {

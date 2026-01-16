@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { BlockchainController } from '../controllers/blockchain.controller';
-import { BlockchainService } from '../services/blockchain.service';
+import { BlockchainController } from './blockchain.controller';
+import { BlockchainService } from './blockchain.service';
 
 describe('BlockchainController', () => {
   let controller: BlockchainController;
