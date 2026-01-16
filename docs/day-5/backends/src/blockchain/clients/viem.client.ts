@@ -1,7 +1,7 @@
 import { createPublicClient, http, PublicClient } from 'viem';
-import { RPC_URL,CHAIN_ID } from '../helpers/deployments';
+import { avalancheFuji } from 'viem/chains';
 
 export const viemPublicClient: PublicClient = createPublicClient({
-  chain: CHAIN_ID,
-  transport: http(RPC_URL),
+  chain: avalancheFuji,
+  transport: http(process.env.RPC_URL),
 });
